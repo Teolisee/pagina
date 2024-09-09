@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corporación Unificada Naciones Amigas</title>
+    <link rel="stylesheet" href="estilo.css"> <!-- Para el CSS -->
+<script src="java" defer></script> <!-- Para el JavaScript -->
+
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="img/logo_naciones_amigas-min.png" alt="Logo del Colegio" class="logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#cursos">Cursos</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#noticias">Noticias</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#ubicacion">Ubicación</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Sección de Inicio -->
+        <section id="inicio">
+            <h1>Corporación Unificada Naciones Amigas</h1>
+            <p>La Corporación Unificada Naciones Amigas se constituyó el día 18 de abril de 2016 como una entidad de naturaleza privada, sin ánimo de lucro...</p>
+            <p>Bienvenidos a nuestra página web.</p>
+            <button id="conocenos-btn">Conócenos</button>
+        </section>
+
+        <!-- Sección Nosotros -->
+        <section id="nosotros">
+            <h2>Sobre Nosotros</h2>
+            <p>Información sobre el colegio.</p>
+        </section>
+
+        <!-- Sección Cursos -->
+        <section id="cursos">
+            <h2>Nuestros Cursos</h2>
+            <p>Descripción de los cursos ofrecidos.</p>
+            <button id="contacto-btn">Contáctanos</button>
+        </section>
+
+        <!-- Sección Galería -->
+        <section id="galeria">
+            <h2>Galería</h2>
+            <div class="galeria">
+                <img src="imagen1.jpg" alt="Imagen 1">
+                <img src="imagen2.jpg" alt="Imagen 2">
+                <img src="imagen3.jpg" alt="Imagen 3">
+            </div>
+        </section>
+
+        <!-- Sección Noticias -->
+        <section id="noticias">
+            <h2>Últimas Noticias</h2>
+            <article>
+                <h3>Título de la Noticia 1</h3>
+                <p>Descripción breve de la noticia.</p>
+            </article>
+            <article>
+                <h3>Título de la Noticia 2</h3>
+                <p>Descripción breve de la noticia.</p>
+            </article>
+        </section>
+
+        <!-- Sección Contacto -->
+        <section id="contacto">
+            <h2>Contáctanos</h2>
+            <form id="contact-form">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Número Telefónico:</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <!-- Sección Ubicación -->
+        <section id="ubicacion">
+            <h2>Nuestra Ubicación</h2>
+            <div id="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.5486447995577!2d-75.29197102565134!3d2.9451052543743454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3b74597a1346ad%3A0x3b39126e4aec3c91!2sCl.%2030%20%238-39%2C%20Comuna%202%2C%20Neiva%2C%20Huila!5e0!3m2!1ses!2sco!4v1725415231194!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-links">
+            <a href="https://www.facebook.com/UniNacionesAmigas/" target="_blank" aria-label="Facebook">
+                <img src="css/facebook_icon-icons.com_59205.svg" alt="Facebook">
+            </a>
+            <a href="https://www.instagram.com/nacionesamigas.ept/" target="_blank" aria-label="Instagram">
+                <img src="css/Instagram_icon-icons.com_66804.svg" alt="Instagram">
+            </a>
+            <a href="https://www.tiktok.com/@nacionesamigas" target="_blank" aria-label="TikTok">
+                <img src="css/tiktok_icon-icons.com_67621.svg" alt="TikTok">
+            </a>
+        </div>
+
+    <div class="footer-info">
+        <p>Calle 30 No. 8-39 / Tel +57-8-8667853 - Cel Whatsapp +57-315 5137888</p>
+        <p>Neiva - Huila - Colombia</p>
+        <p><a href="mailto:direccion@una.edu.co">direccion@una.edu.co</a></p>
+    </div>
+    </footer>
